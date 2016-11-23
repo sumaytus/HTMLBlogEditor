@@ -1,0 +1,326 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+a {
+    color: red;
+    /*background-color:red;*/
+}
+
+.btn.jumbo {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 14px 24px;
+    margin-right: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+div#showdata {
+    background-color: #798679;
+    color: white;
+    padding: 20px;
+    "
+
+}
+
+div#headhtml {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 30px;
+    font-size: 300%;
+    text-align: center;
+    "
+
+}
+
+div#headhtmladmin {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 30px;
+    font-size: 300%;
+    text-align: center;
+    "
+
+}
+
+.btn.jumbo {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 14px 24px;
+    margin-right: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+div#borderdata {
+    background-color: #ffffff;
+    color:#000000;
+    border: 1px solid Black;
+    "
+
+}
+
+div#dataimg {
+    
+     margin: auto;
+    width: 96px;
+    height: 96px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    
+
+}
+
+div#datatoppic {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 200%;
+    border-bottom: 1px solid Black;
+    color: #000000;
+}
+
+div#datatext {
+    padding: 20px;
+    font-size: 100%;
+}
+
+div#dataname {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 100%;
+    border-top: 1px solid Black;
+    text-decoration: underline;
+    color: #C12127;
+    font-style: oblique;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.btn-reorderup{
+
+    background-color: #4d94ff; 
+    border: 1px solid #0052cc;
+    color: #ffffff;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+}
+
+.btn-reorderup:hover {
+    background-color: #005ce6;
+}
+
+
+.btn-reorderdown{
+
+    background-color: #669999; 
+    border: 1px solid #3d5c5c;
+    color: #ffffff;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+
+}
+
+.btn-reorderdown:hover {
+    background-color: #3d5c5c;
+}
+
+
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.form-signin {
+    margin: auto;
+    width: 90%;
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin select[type="text"] {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+
+.profile-img {
+    
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    border:2px solid #aaa;
+
+    
+    
+}
+
+.need-help {
+    margin-top: 10px;
+}
+
+.new-account {
+    display: block;
+    margin-top: 10px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 50%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+div[node-id="1"] {
+    visibility: hidden;
+}
+
+div[node-id="1"] img {
+    visibility: visible;
+    position: relative;
+    top: 20px;
+    left: -90px;
+    width: 247px;
+    border: hidden !important;
+}
+
+label.btn .btn-default .btn-file {
+    position: initial;
+    width: 100%;
+}
+
+input.upimg {}
+
+a.logout {
+    cursor: pointer;
+}
+
+.modal-dialog {
+    background-color: ;
+}
+ 
+ /*search css */
+
+ .custom-search-input{
+  
+  align:right;
+
+ }
+
+#custom-search-input{
+     
+        align:right;
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #f0f5f5;
+}
+
+#custom-search-input input{
+    align:right;
+    border: 0;
+    box-shadow: none;
+    background-color: #a3c2c2;
+}
+
+#custom-search-input button{
+     align:right;
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+
+}
+
+#custom-search-input button:hover{
+
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+     align:right;
+}
+/*label {
+   pointer: cursor;
+    Style as you please, it will become the visible UI component. 
+}
+
+#upload-photo {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}*/

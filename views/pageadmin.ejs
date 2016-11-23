@@ -1,0 +1,108 @@
+
+
+<nav style="background-color: #5f5f5f;" class="navbar-fixed-top navbar navbar-default navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav"></ul>
+        <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul style="background-color: #333333;" class="nav navbar-nav navbar-right">
+                <li><a style="color:#FFF;" class="logout" onclick="logout()">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id ="showdata" ></div>
+
+<div class="form-group">
+    <label for="toppic">Topic</label>
+    <input  placeholder="Write Topic..." class="form-control input-lg" id="toppic" type="text">
+</div>
+
+<div id="summernote"><p>summernote</p></div>
+
+<div class="form-group">
+    <label for="footer">Name</label>
+    <input placeholder="Write Name..." class="form-control input-sm" id="footer" type="text" readonly="readonly">
+</div>
+
+
+
+
+<div align="left">
+
+  <button onclick="upload_img_add()" class="btn btn-primary" data-toggle="modal" data-target="#basicModal">Upload Images Cover</button>
+       
+    <div class="modal fade" id="basicModal">
+
+           <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          
+                          <span aria-hidden="true">&times;</span>
+
+                    </button>
+                    
+                    <h1 class="modal-title">Upload Images Cover</h1>
+
+            </div>
+            <div class="modal-body">
+
+                   <label class="custom-file">
+                            
+                        <form id="fileuploadimages_add" action="users/upimg_add" method="post" enctype="multipart/form-data" class="form-inline ">
+
+                           <input  type="file" name="images" multiple class="custom-file-input" >
+                           <input type="text"  id="id_images_add"  >
+                            
+                        </form>
+                   </label>
+
+            </div>
+            <div class="modal-footer">
+
+                 <button data-dismiss="modal"  type="button" class="btn btn-primary">Save</button>
+                 <!-- <button data-dismiss="modal" type="button" class="btn btn-danger" >Close</button> -->
+
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+      <button onclick="getname()" type="button" class="btn btn-success">Submit</button>
+        <div style="float:right;" class="col-lg-3">
+              <div class="input-group">
+                <input  id="datasearch" type="text" class="form-control" placeholder="Search write here">
+                  <span class="input-group-btn">
+                      
+                      <button onclick="search()" class="btn btn-secondary" type="button">SEARCH GO</button>
+
+                  </span>
+              </div>
+        </div>
+
+</div>
+<!-- class="modal fade" -->
+<div class="modal fade" id="editshow" role="dialog">
+    <div class="modal-dialog">
+        <div class="account-wall">
+            <div id="summernoteedit"><p>summernoteedit</p></div>
+            <button onclick="edit_submit()" type="button" class="btn btn-success">Save edit</button>
+            <input type="text" id="idforupdate" style="display :none;">
+        </div>
+    </div>
+</div>
+
+
+<p id="list_pagi"></p>
+        <ul id="back_pagi" class="pagination"></ul>
+        <ul id="pagination" class="pagination"></ul>
+        <ul id="next_pagi" class="pagination"></ul>
+
+
+
+
+  
+ 
+
+
+
